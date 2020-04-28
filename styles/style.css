@@ -16,17 +16,17 @@ body {
     margin: 0 auto;
 }
 
-.wrapper > div {
+.container {
     border: 1px solid rgba(0, 0, 0, 0.09);
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
 }
 
-.wrapper > div > div {
+.tab {
     position: relative;
 }
 
-.wrapper > div > div::before {
+.tab::before {
     content: "";
     position: absolute;
     width: 2px;
@@ -80,6 +80,7 @@ p:nth-last-child(1) {
 img {
     display: block;
     margin: 0 auto;
+    max-width: 100%;
 }
 
 [type="checkbox"] {
